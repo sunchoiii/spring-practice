@@ -23,7 +23,7 @@ public class JwtUtil {
     private static final String BEARER_PREFIX = "Bearer ";
     private static final long TOKEN_TIME = 60 * 60 * 1000L; // 60분
 
-    @Value("${jwt.secret.key}")
+    @Value("OXQa4xsACoiO8GnRu2oQLlrF46roJLABMLJUpF2p2Ak=")
     private String secretKey;
     private Key key;
     private final SignatureAlgorithm signatureAlgorithm = SignatureAlgorithm.HS256;
@@ -49,6 +49,7 @@ public class JwtUtil {
                         .compact();
     }
 
+    // bearer  잘라주는거
     public String substringToken(String tokenValue) {
         if (StringUtils.hasText(tokenValue) && tokenValue.startsWith(BEARER_PREFIX)) {
             return tokenValue.substring(7);
