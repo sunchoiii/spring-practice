@@ -5,6 +5,7 @@ import org.example.expert.client.WeatherClient;
 import org.example.expert.domain.common.dto.AuthUser;
 import org.example.expert.domain.common.exception.InvalidRequestException;
 import org.example.expert.domain.todo.dto.request.TodoSaveRequest;
+import org.example.expert.domain.todo.dto.response.TodoProjectionDto;
 import org.example.expert.domain.todo.dto.response.TodoResponse;
 import org.example.expert.domain.todo.dto.response.TodoSaveResponse;
 import org.example.expert.domain.todo.entity.Todo;
@@ -81,5 +82,20 @@ public class TodoService {
                 todo.getCreatedAt(),
                 todo.getModifiedAt()
         );
+    }
+
+    public Page<TodoProjectionDto> searchFromProjection(int page,
+                                                        int size,
+                                                        String keyword,
+                                                        String managerNickname,
+                                                        LocalDateTime startDate,
+                                                        LocalDateTime endDate) {
+        Pageable pageable = PageRequest.of(page - 1, size);
+
+        Page<TodoProjectionDto> todos = todoRepository.searchFromProjection(pageable, keyword, managerNickname, startDate, endDate);
+
+        return todos;
+
+
     }
 }
