@@ -63,7 +63,7 @@
 
 
 # 💥 SPRING PLUS 개인과제 트러블슈팅 기록
-`https://velog.io/@csun1047/SPRING-PLUS-%EA%B0%9C%EC%9D%B8%EA%B3%BC%EC%A0%9C-%ED%8A%B8%EB%9F%AC%EB%B8%94%EC%8A%88%ED%8C%85`
+https://velog.io/@csun1047/SPRING-PLUS-%EA%B0%9C%EC%9D%B8%EA%B3%BC%EC%A0%9C-%ED%8A%B8%EB%9F%AC%EB%B8%94%EC%8A%88%ED%8C%85
 
 <br>
 <br>
