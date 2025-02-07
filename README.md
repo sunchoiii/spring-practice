@@ -1,4 +1,4 @@
-# 🛠️ SPRING 주요 코드
+# 🛠️ 주요 코드
 
 ### JPQL 사용 
 - 할 일 검색 시 `weather` 조건으로도 검색
@@ -62,7 +62,7 @@
 <br>
 
 
-# 💥 SPRING PLUS 개인과제 트러블슈팅 기록
+# 💥 트러블슈팅 기록
 https://velog.io/@csun1047/SPRING-PLUS-%EA%B0%9C%EC%9D%B8%EA%B3%BC%EC%A0%9C-%ED%8A%B8%EB%9F%AC%EB%B8%94%EC%8A%88%ED%8C%85
 
 <br>
