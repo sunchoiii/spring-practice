@@ -1,4 +1,4 @@
-# 🛠️ SPRING PLUS 개인과제 주요 코드
+# 🛠️ SPRING 주요 코드
 
 ### JPQL 사용 
 - 할 일 검색 시 `weather` 조건으로도 검색
@@ -8,11 +8,13 @@
 <img width="843" alt="스크린샷 2024-10-11 오전 9 17 34" src="https://github.com/user-attachments/assets/f08af09c-8aee-443d-bd62-7dba1cedb0e9">
 
 <br>
+<br>
 
 ### N+1문제 해결
 - `CommentController` 클래스의 `getComments()` API를 호출할 때 N+1 문제를 해결
 <img width="647" alt="스크린샷 2024-10-11 오전 10 05 07" src="https://github.com/user-attachments/assets/d0fe5a56-49f4-466e-abb9-d3e2f9db8fdf">
 
+<br>
 <br>
 
 ###  Spring Security
@@ -24,6 +26,7 @@
 <img width="915" alt="스크린샷 2024-10-11 오전 10 10 02" src="https://github.com/user-attachments/assets/4bc3fa5c-188a-4aab-b843-7accd3b818dd">
 <img width="721" alt="스크린샷 2024-10-11 오전 10 10 09" src="https://github.com/user-attachments/assets/e4ba7c92-c66f-4880-869e-c26c50596a55">
 
+<br>
 <br>
 
 ### QueryDSL
@@ -42,6 +45,7 @@
 <img width="729" alt="스크린샷 2024-10-11 오전 10 13 23" src="https://github.com/user-attachments/assets/70e90984-f068-495d-9e71-82075de9cf30">
 <img width="600" alt="스크린샷 2024-10-11 오전 10 13 13" src="https://github.com/user-attachments/assets/e663779d-7e0f-4465-b3b2-1a182f0d4557">
 
+<br>
 <br>
 
 ### Transaction 전파범위
